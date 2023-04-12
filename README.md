@@ -1,79 +1,46 @@
-# create-vite
+# Getting Started with Create React App
 
-## Scaffolding Your First Vite Project
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> **Compatibility Note:**
-> Vite requires [Node.js](https://nodejs.org/en/) version 14.18+, 16+. However, some templates require a higher Node.js version to work, please upgrade if your package manager warns about it.
+## Available Scripts
 
-With NPM:
+In the project directory, you can run:
 
-```bash
-$ npm create vite@latest
-```
+### `npm start`
 
-With Yarn:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-```bash
-$ yarn create vite
-```
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-With PNPM:
+### `npm test`
 
-```bash
-$ pnpm create vite
-```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Then follow the prompts!
+### `npm run build`
 
-You can also directly specify the project name and the template you want to use via additional command line options. For example, to scaffold a Vite + Vue project, run:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-```bash
-# npm 6.x
-npm create vite@latest my-vue-app --template vue
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-# npm 7+, extra double-dash is needed:
-npm create vite@latest my-vue-app -- --template vue
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# yarn
-yarn create vite my-vue-app --template vue
+### `npm run eject`
 
-# pnpm
-pnpm create vite my-vue-app --template vue
-```
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Currently supported template presets include:
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- `vanilla`
-- `vanilla-ts`
-- `vue`
-- `vue-ts`
-- `react`
-- `react-ts`
-- `react-swc`
-- `react-swc-ts`
-- `preact`
-- `preact-ts`
-- `lit`
-- `lit-ts`
-- `svelte`
-- `svelte-ts`
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You can use `.` for the project name to scaffold in the current directory.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Community Templates
+## Learn More
 
-create-vite is a tool to quickly start a project from a basic template for popular frameworks. Check out Awesome Vite for [community maintained templates](https://github.com/vitejs/awesome-vite#templates) that include other tools or target different frameworks. You can use a tool like [degit](https://github.com/Rich-Harris/degit) to scaffold your project with one of the templates.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-```bash
-npx degit user/project my-project
-cd my-project
-
-npm install
-npm run dev
-```
-
-If the project uses `main` as the default branch, suffix the project repo with `#main`
-
-```bash
-npx degit user/project#main my-project
-```
+To learn React, check out the [React documentation](https://reactjs.org/).
